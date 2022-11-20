@@ -216,17 +216,44 @@ footer a {
     gap: 2rem;
 }
 
-.card {
+.card1{
     background-color: #082B59;
     color: #ffffff;
     border-radius: 10px;
     text-align: center;
 }
 
-.card h2,
-.card p {
+.card2{
+    background-color: #082B59;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card3{
+    background-color: #082B59;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card1 h2,
+.card1 p {
     padding: 0 1rem;
 }
+
+
+.card2 h2,
+.card2 p {
+    padding: 0 1rem;
+}
+
+
+.card3 h2,
+.card3 p {
+    padding: 0 1rem;
+}
+
 
 
 .menu {
