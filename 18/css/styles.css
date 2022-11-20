@@ -216,21 +216,21 @@ footer a {
     gap: 2rem;
 }
 
-.card1{
+.card1 {
     background-color: #082B59;
     color: #ffffff;
     border-radius: 10px;
     text-align: center;
 }
 
-.card2{
+.card2 {
     background-color: #082B59;
     color: #ffffff;
     border-radius: 10px;
     text-align: center;
 }
 
-.card3{
+.card3 {
     background-color: #082B59;
     color: #ffffff;
     border-radius: 10px;
@@ -297,6 +297,10 @@ footer a {
 
     .card3 {
         grid-column: 3/4;
+        background-color: #082B59;
+        color: #ffffff;
+        border-radius: 10px;
+        text-align: center;
     }
 
 }
@@ -353,14 +357,16 @@ footer a {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    gap: 2rem;}
+    gap: 2rem;
+}
 
 .contact-info {
     text-align: center;
     justify-content: center;
     flex-basis: 100%;
 }
-.menu{
+
+.menu {
     text-align: center;
     flex-basis: 100%;
 }
@@ -378,7 +384,7 @@ footer a {
     .contact-info {
         flex-basis: 23%;
         margin-top: 30%;
-    
+
     }
 
     .menu {
@@ -388,7 +394,7 @@ footer a {
 }
 
 
-@media(min-width: 950px){
+@media(min-width: 950px) {
     .container3 {
         display: flex;
         flex-flow: row wrap;
@@ -396,16 +402,16 @@ footer a {
         gap: 2rem;
     }
 
-    .contact-info{
+    .contact-info {
         flex-basis: 100%;
         margin-top: 0;
     }
 
-    .menu{
+    .menu {
         text-align: center;
         justify-self: center;
         flex-basis: 100%;
         margin-top: 0;
     }
-   
+
 }
