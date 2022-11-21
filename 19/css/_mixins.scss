@@ -1,0 +1,14 @@
+
+@mixin nospace($margin, $padding) {
+    margin: $margin;
+    padding: $padding;
+
+}
+
+@mixin card{
+    background-color: $brand-blue;
+    color: $brand-white;
+    border-radius: $corners;
+    text-align: center;
+
+}
